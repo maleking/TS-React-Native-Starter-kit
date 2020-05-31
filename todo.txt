@@ -1,0 +1,14 @@
+on eject :
+guesture-handler
+I18nManager
+https://reactnative.dev/blog/2016/08/19/right-to-left-support-for-react-native-apps
+
+import com.facebook.react.modules.i18nmanager.I18nUtil;
+I18nUtil sharedI18nUtilInstance = I18nUtil.getInstance();
+sharedI18nUtilInstance.forceRTL(this,true);
+sharedI18nUtilInstance.allowRTL(this, true);
+
+#import <React/RCTI18nUtil.h>
+
+[[RCTI18nUtil sharedInstance] allowRTL:YES];
+[[RCTI18nUtil sharedInstance] forceRTL:YES];

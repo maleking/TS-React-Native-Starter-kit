@@ -1,0 +1,10 @@
+{
+  "extends": "@react-native-community",
+  "rules": {
+    "react-native/no-unused-styles": 2,
+    "react/jsx-no-literals": [
+      2,
+      {"noStrings": true, "allowedStrings": ["not allowed"]}
+    ]
+  }
+}
